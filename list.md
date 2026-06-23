@@ -10,10 +10,9 @@
 1. [4720_電流による磁界_ApPhys2A.ipynb](https://colab.research.google.com/github/kzhkAKT/ApPhys2A/blob/main/4720_%E9%9B%BB%E6%B5%81%E3%81%AB%E3%82%88%E3%82%8B%E7%A3%81%E7%95%8C_ApPhys2A.ipynb)
 1. [4730_電流が磁界から受ける力_ApPhys2A.ipynb](https://colab.research.google.com/github/kzhkAKT/ApPhys2A/blob/main/4730_%E9%9B%BB%E6%B5%81%E3%81%8C%E7%A3%81%E7%95%8C%E3%81%8B%E3%82%89%E5%8F%97%E3%81%91%E3%82%8B%E5%8A%9B_ApPhys2A.ipynb)
 1. [4810_電磁誘導_ApPhys2A.ipynb](https://colab.research.google.com/github/kzhkAKT/ApPhys2A/blob/main/4810_%E9%9B%BB%E7%A3%81%E8%AA%98%E5%B0%8E_ApPhys2A.ipynb)
-
+1. [4820_交流_ApPhys2A.ipynb](https://colab.research.google.com/github/kzhkAKT/ApPhys2A/blob/main/4820_%E4%BA%A4%E6%B5%81_ApPhys2A.ipynb)
 <!-- 
 prefix_url="https://colab.research.google.com/github/kzhkAKT/ApPhys2A/blob/main/"
 
-for ipynb in *.ipynb; do   encoded_name=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.ar
-gv[1]))" "$ipynb");   echo "1. [$ipynb]($prefix_url$encoded_name)"; done
+for ipynb in *.ipynb; do   encoded_name=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.argv[1]))" "$ipynb");   echo "1. [$ipynb]($prefix_url$encoded_name)"; done
 >
